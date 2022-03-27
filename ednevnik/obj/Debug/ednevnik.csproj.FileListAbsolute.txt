@@ -1,0 +1,10 @@
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\bin\Debug\ednevnik.exe.config
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\bin\Debug\ednevnik.exe
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\bin\Debug\ednevnik.pdb
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.csprojAssemblyReference.cache
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Osoba.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Properties.Resources.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.csproj.GenerateResource.cache
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.csproj.CoreCompileInputs.cache
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.exe
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.pdb

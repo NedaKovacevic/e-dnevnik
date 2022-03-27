@@ -35,7 +35,7 @@ namespace ednevnik
             txtAdresa.Text = tabela.Rows[brSloga]["adresa"].ToString();
             txtJmbg.Text = tabela.Rows[brSloga]["jmbg"].ToString();
             txtMail.Text = tabela.Rows[brSloga]["email"].ToString();
-            txtPass.Text = tabela.Rows[brSloga]["password"].ToString();
+            txtPass.Text = tabela.Rows[brSloga]["pass"].ToString();
             txtUloga.Text = tabela.Rows[brSloga]["uloga"].ToString();
         }
         private void label1_Click(object sender, EventArgs e)
