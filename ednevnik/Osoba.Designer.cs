@@ -91,6 +91,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "promeni";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDel
             // 
@@ -100,6 +101,7 @@
             this.btnDel.TabIndex = 4;
             this.btnDel.Text = "obrisi";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnNext
             // 

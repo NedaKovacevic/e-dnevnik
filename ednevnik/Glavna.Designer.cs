@@ -51,7 +51,7 @@
             this.izvestajiToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(4033, 150);
+            this.menuStrip1.Size = new System.Drawing.Size(1613, 49);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,9 +99,9 @@
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Location = new System.Drawing.Point(1306, 9);
+            this.lblUser.Location = new System.Drawing.Point(1296, 17);
             this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(0, 80);
+            this.lblUser.Size = new System.Drawing.Size(0, 32);
             this.lblUser.TabIndex = 1;
             // 
             // Glavna

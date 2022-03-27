@@ -39,6 +39,7 @@ namespace ednevnik
                 txtMail.Text = "";
                 txtPass.Text = "";
                 txtUloga.Text = "";
+                btnDel.Enabled = false;
             }
             else
             {
@@ -50,6 +51,7 @@ namespace ednevnik
                 txtMail.Text = tabela.Rows[brSloga]["email"].ToString();
                 txtPass.Text = tabela.Rows[brSloga]["pass"].ToString();
                 txtUloga.Text = tabela.Rows[brSloga]["uloga"].ToString();
+                btnDel.Enabled = true;
             }
             if (brSloga == 0)
             {
@@ -125,6 +127,7 @@ namespace ednevnik
             Naredba.Append(txtMail.Text + "', '");
             Naredba.Append(txtPass.Text + "', '");
             Naredba.Append(txtUloga.Text + "')");
+
             SqlConnection veza = Konekcija.Connect();
             SqlCommand Komanda = new SqlCommand(Naredba.ToString(), veza);
             try
@@ -141,6 +144,61 @@ namespace ednevnik
             brSloga = tabela.Rows.Count - 1;
             txtLoad();
 
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            StringBuilder Naredba = new StringBuilder("UPDATE osoba SET ");
+            Naredba.Append("ime = '" + txtIme.Text + "', ");
+            Naredba.Append("prezime = '" + txtPrezime.Text + "', ");
+            Naredba.Append("adresa = '" + txtAdresa.Text + "', ");
+            Naredba.Append("jmbg = '" + txtJmbg.Text + "', ");
+            Naredba.Append("mail = '" + txtMail.Text + "', ");
+            Naredba.Append("pass = '" + txtPass.Text + "', ");
+            Naredba.Append("uloga = '" + txtUloga.Text + "' ");
+            Naredba.Append("WHERE id = " + txtId.Text);
+
+            SqlConnection veza = Konekcija.Connect();
+            SqlCommand Komanda = new SqlCommand(Naredba.ToString(), veza);
+            try
+            {
+                veza.Open();
+                Komanda.ExecuteNonQuery();
+                veza.Close();
+            }
+            catch (Exception Greska)
+            {
+                MessageBox.Show(Greska.Message);
+            }
+            loadData();
+            txtLoad();
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            string Naredba = "DELETE FROM osoba WHERE id = " + txtId.Text;
+            SqlConnection veza = Konekcija.Connect();
+            SqlCommand Komanda = new SqlCommand(Naredba, veza);
+            Boolean brisano = false;
+            try
+            {
+                veza.Open();
+                Komanda.ExecuteNonQuery();
+                veza.Close();
+                brisano = true;
+            }
+            catch (Exception Greska)
+            {
+                MessageBox.Show(Greska.Message);
+            }
+            if(brisano)
+            {
+                loadData();
+                if (brSloga > 0) brSloga--;
+                txtLoad();
+            }
+            loadData();
+            txtLoad();
         }
     }
 }
