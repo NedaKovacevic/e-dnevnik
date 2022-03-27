@@ -29,13 +29,19 @@ namespace ednevnik
 
         private void Glavna_Load(object sender, EventArgs e)
         {
-
+            string user = Program.userIme + " " + Program.userPrez;
+            lblUser.Text = user;
         }
 
         private void osobeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Osoba frmOsoba = new Osoba();
             frmOsoba.Show();
+        }
+
+        private void Glavna_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
