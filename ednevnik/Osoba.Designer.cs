@@ -61,6 +61,7 @@
             this.btnFirst.TabIndex = 0;
             this.btnFirst.Text = "<<";
             this.btnFirst.UseVisualStyleBackColor = true;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnPrev
             // 
@@ -70,6 +71,7 @@
             this.btnPrev.TabIndex = 1;
             this.btnPrev.Text = "<";
             this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
             // btnAdd
             // 
@@ -79,6 +81,7 @@
             this.btnAdd.TabIndex = 2;
             this.btnAdd.Text = "dodaj";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -106,6 +109,7 @@
             this.btnNext.TabIndex = 5;
             this.btnNext.Text = ">";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnLast
             // 
@@ -115,9 +119,11 @@
             this.btnLast.TabIndex = 6;
             this.btnLast.Text = ">>";
             this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // txtId
             // 
+            this.txtId.Enabled = false;
             this.txtId.Location = new System.Drawing.Point(596, 77);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(355, 38);
