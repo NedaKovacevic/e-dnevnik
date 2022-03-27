@@ -29,7 +29,7 @@ namespace ednevnik
         }
         private void txtLoad()
         {
-            if (tabela.Rows.Count == -1)
+            if (tabela.Rows.Count == 0)
             {
                 txtId.Text = "";
                 txtIme.Text = "";
@@ -137,6 +137,10 @@ namespace ednevnik
             {
                 MessageBox.Show(Greska.Message);
             }
+            loadData();
+            brSloga = tabela.Rows.Count - 1;
+            txtLoad();
+
         }
     }
 }
