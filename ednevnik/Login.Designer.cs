@@ -51,7 +51,7 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(88, 181);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(190, 80);
+            this.lblName.Size = new System.Drawing.Size(76, 32);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "mail:";
             // 
@@ -101,6 +101,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

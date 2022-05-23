@@ -9,3 +9,4 @@ C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.cspro
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.exe
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.pdb
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Glavna.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Login.resources
