@@ -10,3 +10,7 @@ C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.exe
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.pdb
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Glavna.resources
 C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Login.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Ocena.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Raspodela.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Sifarnik.resources
+C:\Users\tamar\Desktop\Neda Vanredno\e-dnevnik\ednevnik\obj\Debug\ednevnik.Upisnica.resources
